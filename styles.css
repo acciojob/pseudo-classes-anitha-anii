@@ -4,9 +4,11 @@
 	padding:0;
 	box-sizing:border-box;
 }
-body{
+/* body{
 	background-color:rgb(135, 206, 235);
-	
+} */
+html {
+  background-color: rgb(135, 206, 235);
 }
 div > p:first-child{
 	background-color:black;
