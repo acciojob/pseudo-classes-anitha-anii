@@ -1,1 +1,31 @@
 /*  your css code here. If applicable */
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	background-color:skyblue;
+	
+}
+div > p:first-child{
+	background-color:black;
+	color:white;
+}
+div > p:last-child{
+	
+	color:red;
+}
+.list{
+	margin:30px;
+	width:50%;
+}
+ul li:nth-child(2),ul li:nth-child(4){
+	background-color:#708090;
+}
+ul li:first-child,ul li:last-child{
+	background-color:white;
+}
+ul li:nth-child(3){
+	background-color:pink;
+}
